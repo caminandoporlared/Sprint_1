@@ -1,0 +1,113 @@
+* { 
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box
+}
+
+marco{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    header{
+        display:flex;
+        flex-flow: column nowrap; 
+        background-color: black;
+    }
+    .menu{
+        background-color: green;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+        .logo{
+            background-color: blueviolet;
+            flex: 1 1 auto;
+            /* flex-flow: row nowrap; */
+        }
+
+        .titulo{
+            background-color: lightsalmon;
+            flex: 7 1 auto;
+        }
+
+        .social{
+            background-color: blueviolet;
+            flex: 1 1 auto;
+        }
+
+    .presentacion {
+        background: #e17055;
+        display: flex;
+        flex-flow: row nowrap;
+    } 
+        .texto{
+            background-color: aliceblue;
+            flex:100%;
+        }
+
+
+
+    section{
+        display: flex;
+        background-color: black;
+    }
+
+    .articulos{
+        background-color: green;
+        flex: 2 1 auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
+        .articulo1 {
+            background: #0984e3;
+            flex: 1 1 40%;
+        }
+        .navigation{
+            background: #74b9ff;
+            flex: 1 1 100%
+        }
+    .aside{
+        background-color: #0984e3;
+        flex:1 1 auto;
+    }
+        .aside1{
+            background-color: aqua;
+        }
+
+footer{
+    display: flex;
+    background-color: black;
+}
+.lineafooter{
+background-color: lightcoral;
+flex: 100%;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    /*Para tablet*/ 
+    section {
+        background: yellow;
+        flex-direction: column;
+    }
+    
+  }
+
+@media only screen and (max-width: 600px) {
+    /*Para mobil*/ 
+    .menu {
+        flex-direction: column;
+    }
+    .articulos {
+        flex-direction: column;
+    }
+    .aside {
+        background: orange;
+    }
+
+}
+
+
+
+/* Nota: Podría poner aquí en CSS el ancho máximo de la capa que está ahora en el html */
