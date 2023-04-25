@@ -4,4 +4,4 @@ En el Sprint 1 he usado: html, CSS y Media Queries.
 
 Seguimos adelante....
 
-(Añado un cambio desde GIT Desktop)
+(Añado un cambio desde GIT Desktop   )
